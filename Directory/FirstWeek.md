@@ -1,8 +1,10 @@
+# 기본
+
 ### 웹 프로세스
 
 1. 브라우저 요청
 2. Hosts 파일검색
-3.Domain Name Server 서버 검색
+3. Domain Name Server 서버 검색
 4. 해당 주소로 연결
 
 ### 웹 스키마 (프로토콜)
@@ -18,8 +20,8 @@
 <li> URL(Uniform Resource Locator) : 인터넷 주소(정형화 된 리소스 위치표시)
 <li> URN(Uniform Resource Name) : 주소
 
-<schme>://<name>:<pwd>@<host>:<port>/<path>;<parameter>?<query>#<fragment> 
-<schme>://<host>:<port>/<path>?<query>
+<li> <schme>://<name>:<pwd>@<host>:<port>/<path>;<parameter>?<query>#<fragment> 
+<li> <schme>://<host>:<port>/<path>?<query>
 
 ### 메소드
 
@@ -28,5 +30,14 @@
 <li> DELETE : 리소스 삭제
 <li> POST : 데이터 전송
 <li> HEAD : HTTP 헤더 획득
+
+### TCP / IP
+
+<li> HTTP : 애플리케이션 계층
+<li> TCP : 전송 계층
+<li> IP : 네트워크 계층
+
+
+
 
 
