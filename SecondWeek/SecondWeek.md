@@ -35,11 +35,17 @@ print('Content-Type:text/html;charset=utf-8\n')
 print('Hello World')
 ```
 
-### pip3 install xlsxwriter
+###  xlsxwriter
+pip3 install xlsxwriter
+```python
 
+```
 
+### Django
 
-
+Django 시작하기 : django -admin startproject first_site
+Django manage.py : django manage.py migrate
+Django 
 
 ### 기타 등등
 

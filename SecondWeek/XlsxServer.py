@@ -1,4 +1,4 @@
-# 접속하자 페이지가 뜨는게 아니라, 엑셀파일이 다운받아지는 xlsx 서
+# 접속하자 페이지가 뜨는게 아니라, 엑셀파일이 다운받아지는 xlsx 서버
 
 import http.server
 import socketserver
@@ -28,5 +28,5 @@ class Handler(http.server.SimpleHTTPRequestHandler) :
         return
 
 print("serving at port", PORT)
-httpd = socketserver.TCPServer(('',PORT),Handler)
+httpd = socketserver.TCPServer(('', PORT), Handler)
 httpd.serve_forever()
