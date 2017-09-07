@@ -36,3 +36,10 @@
 <li> HTTP : 애플리케이션 계층
 <li> TCP : 전송 계층
 <li> IP : 네트워크 계층
+
+### 서버 구성
+
+<li> Web Server : 분산처리
+<li> DB Server : 데이터베이스를 관리하는 서버
+<li> Image Server : 이미지만 담당하는 서버
+<li> Cache Server : 물리적 한계를 극복 하기 위해 만든 서버
