@@ -8,8 +8,9 @@ r = requests.post(url)
 if r.status_code == requests.codes.ok :
     encoded_json = json.loads(r.text)
     data = encoded_json["data"]
-    print(data)
     for section in data:
         print(section["name"])
-        print(section["items"])
+        for item in section["items"] :
+            print(item["rank"],item["keyword"])
+
 
