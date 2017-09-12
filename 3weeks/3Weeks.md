@@ -12,5 +12,10 @@
 
 ### Django Design Pattern
 
-<li> MVC : 
-<li> MTV : 
+<li> MVC : Model,View,Controller
+<li> MTV : Model, Template, View(Controller)
+
+
+### 기타
+
+python3 manage.py migrate
