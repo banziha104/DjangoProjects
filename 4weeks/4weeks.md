@@ -10,3 +10,5 @@
 <li> python manage.py startapp bookmark
 <li> blank vs null : blank는 공백이 들어 간것,null은 아무것도 들어가지 않은것 
 <li> python manage.py makemigrations bookmark : migration할 내용을 만듬
+<li> python manage.py migrate bookmark 0001
+<li> templates 폴더안에 bookmark 폴더를 넣은 이유 : app
