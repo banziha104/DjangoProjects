@@ -153,6 +153,10 @@ MEDIA_URL = '/media/'                          # 웹사이트에서 어디서 �
 MEDIA_ROOT = os.path.join(BASE_DIR,'media/')   # media라는 폴더를 기본으로함
 
 ```
+
+python manage.py startapp accounts
+```python
+```
 ### 기타
 
 <li> python manage.py makemigrations   # 마이그레이션 생성
