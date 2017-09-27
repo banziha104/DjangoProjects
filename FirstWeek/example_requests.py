@@ -27,9 +27,9 @@ else:
     print("서버 응답 오류, 프로그램 종료")
 
 # 첫 로그인
-jar = requests.cookies.RequestsCookieJar() #쿠키값 불러오기
+jar2= requests.cookies.RequestsCookieJar() #쿠키값 불러오기
 login_data = {"id": "myid", "pwd": "mypwd"}
-r = requests.get(url,data=login_data, cookies=jar) # 쿠키 던지기
+r = requests.get(url,data=login_data, cookies=jar2) # 쿠키 던지기
 
 # login 이후
-r = requests.get(url,cookies=jar)
+r = requests.get(url,cookies=jar2)

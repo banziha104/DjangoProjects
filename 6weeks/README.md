@@ -10,6 +10,7 @@
 <li> 마이그레이트 : python manage.py migrate
 <li> 파이썬 서버 실행 : python manage.py runserver
 <li> 사진 라이브러리 : pip install Pillow
+
 ### In Django
 
 모델 정의
