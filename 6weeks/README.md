@@ -10,6 +10,7 @@
 <li> 마이그레이트 : python manage.py migrate
 <li> 파이썬 서버 실행 : python manage.py runserver
 <li> 사진 라이브러리 : pip install Pillow
+<li> 파이썬 스태틱 파일 수집 명령 실e pm : python manage.py collectstatic
 
 ### In Django
 
@@ -32,7 +33,6 @@ class Photo(models.Model):
     def __str__(self):
         return self.author.username + " " + self.created.strftime("%Y-%m-%d %H:%i:%s")
 ```
-
 
 언어및 타임존 변경
 
